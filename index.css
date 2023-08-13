@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alegreya+SC:ital,wght@0,400;0,500;1,400;1,500&family=Bangers&family=Bebas+Neue&family=Bodoni+Moda:ital,wght@0,400;0,500;1,400;1,500&family=Brawler:wght@400;700&family=Castoro+Titling&family=Cinzel+Decorative:wght@700;900&family=Crimson+Text:ital@0;1&family=Dancing+Script:wght@400;600;700&family=Limelight&family=Mate+SC&family=Neuton:ital,wght@0,300;0,400;1,400&family=Niconne&family=Notable&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400&family=Prompt:ital,wght@0,600;1,300;1,400&family=Sacramento&family=Satisfy&family=Shojumaru&family=Unna:ital,wght@0,400;0,700;1,400;1,700&family=Vollkorn:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShoHnVFAz_ZvXoTkQb9scgWEix2bL8RiJnmQ&usqp=CAU) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow:0px 3px 15px rgba(113, 115, 119, 0.5) ;
+    font-size: 40px;
+    text-align: right;
+}
+input::placeholder{
+    color: white;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    /* color: white; */
+    color: black;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.equal{
+    background-color:orange;
+}
+.operator{
+    color: green;
+}
+
